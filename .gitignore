@@ -1,0 +1,4 @@
+*.data
+*.names
+*.pickle
+.DS_Store
