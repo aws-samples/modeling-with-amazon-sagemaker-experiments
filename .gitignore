@@ -2,3 +2,4 @@
 *.names
 *.pickle
 .DS_Store
+.ipynb_checkpoints
