@@ -1,8 +1,10 @@
-# Streamline Modeling With SageMaker Studio and Experiments SDK
+# Streamline Modeling With Amazon SageMaker Studio and Amazon Experiments SDK
 
-In most Machine Learning projects, modeling phase tends to be a highly iterative process, where Data Scientists explore various data preprocessing and feature engineering approaches, as well as, a variety of model architectures with varying set of hyperparameters. This highly iterative process, with many moving parts, can, over time, manifest into a tremendous challenge of keeping track of all design decisions applied in each iteration, and how the performance metrics of each iteration compare to the other versions of the solution.
+Modeling phase is a highly iterative process in Machine Learning projects, where Data Scientists experiment with various data pre-processing and feature engineering strategies, intertwined with different model architectures, which are then trained with disparate sets of hyperparameter values. This highly iterative process, with many moving parts, can, over time, manifest into a tremendous headache in terms of keeping track of all design decisions applied in each iteration and how the training and evaluation metrics of each iteration compare to the previous versions of the model.
 
-The provided `modeling-with-amazon-sagemaker-experiments.ipynb` Jupyter notebook walks through an end-to-end example of how SageMaker Studio can effectively leverage SageMaker Experiments SDK to organize, track, visualize and compare our iterative work during development of a Keras model, trained to predict the age of an abalone, a sea snail, based on a set of features that describe it. While this example is specific to Keras, the same approach can be extended to other Machine Learning frameworks and algorithms.
+While your head may be spinning by now, fear not! Amazon SageMaker has a solution!
+
+The provided `modeling-with-amazon-sagemaker-experiments.ipynb` Jupyter notebook walks you through an end-to-end example of utilizing [Amazon SageMaker Studio](https://docs.aws.amazon.com/sagemaker/latest/dg/gs-studio.html) and [Amazon SageMaker Experiments SDK](https://sagemaker-experiments.readthedocs.io/en/latest/), to organize, track, visualize and compare our iterative experimentation with a Keras model. While this example is specific to Keras framework, the same approach can be extended to other Deep Learning frameworks and Machine Learning algorithms.
 
 ## Security
 
